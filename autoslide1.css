@@ -1,0 +1,38 @@
+.dmain
+		{height:650px;width:100%;padding:0px;
+		 border:0px solid grey;margin-left:0px;}
+		
+		.ihw
+		{
+			height:650px;width:100%; 
+			transition: all 2s ease-in-out;position:absolute;
+			-webkit-transition: all 2s ease-in-out;
+		}
+		#x1, #x2, #x3, #x4{opacity:0;}
+		#sactive{opacity:1;}
+		.control1
+		{
+			height:20px; width:auto;
+			position:absolute;margin-top:600px;
+			margin-left:45%;
+		}
+		.in3
+		{
+			height:13px; width:13px;border:2px solid white;background-color:#282828;
+			border-radius:11px;float:left; margin-right:5px;cursor:pointer;
+			-webkit-transition: all 0.4s; transition: all 0.4s; opacity:0.5;
+		}
+		.in3:hover
+		{
+			background-color:#ff7766;opacity:0.7;
+		}
+		.iactive{background-color:#ff7766; opacity:0.7;}
+		.imgndiv
+		{
+			height:650px; position:absolute; width:100%;
+			text-align:center;color:white;opacity:0.9;
+		}
+		.sheading
+		{
+			margin-top:200px;
+		}
